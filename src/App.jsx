@@ -2,7 +2,10 @@ import React from 'react'
 import { Numeros } from './numeros/Numeros'
 import { Operaciones } from './operaciones/Operaciones'
 import { Resultado } from './resultado/Resultado'
+import { useState } from 'react'
 import './app.css'
+
+const [ panel, setPanel] = useState('');
 
 export const App = () => {
   return (
