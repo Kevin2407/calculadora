@@ -1,8 +1,25 @@
-# React + Vite
+# Calculadora en React con Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una simple calculadora que permite realizar operaciones básicas como suma, resta, multiplicación y división sobre números decimales. Se desarrolló como un miniproyecto y repaso de React combinado con Tailwind CSS para el diseño.
 
-Currently, two official plugins are available:
+![Imagen de la pantalla principal](.\src\assets\muestra.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Características
+
+- Operaciones básicas: suma, resta, multiplicación y división.
+- Soporte para números decimales.
+- Diseño responsivo con Tailwind CSS.
+
+## 🛠️ Tecnologías utilizadas
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Fondo de asfar mohamed](https://codepen.io/asfarmed)
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. **Clonar el repositorio**
+
+   ```bash
+   git clone [URL-del-repositorio]
+   cd [nombre-del-repositorio]
