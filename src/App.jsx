@@ -18,10 +18,24 @@ export const App = () => {
         }
     }   
 
-    const cambiarPanel = (numero)=>{
-        numero === '=' ? 
-        setPanel(evaluarPanel(panel)) 
-        : setPanel(panel.toString() + numero)
+    const cambiarPanel = (caracter)=>{
+
+        switch(caracter){
+            case '=':
+                setPanel(evaluarPanel(panel));
+            break;
+            case 'C':
+                setPanel('');
+            break;
+            default:
+                setPanel(panel.toString() + caracter);
+
+        }
+
+
+        // numero === '=' ? 
+        // setPanel(evaluarPanel(panel)) 
+        // : setPanel(panel.toString() + numero)
     }
     
   return (

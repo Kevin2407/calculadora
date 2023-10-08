@@ -15,7 +15,9 @@ export const Numeros = ({cambiarResultado}) => {
               <Bott key={index} n={index+1} cambiarResultado={cambiarResultado} />
             ))
         }
-        <Bott classDe0='col-span-3' n={0}  cambiarResultado={cambiarResultado}/>
+        <Bott classDe0='col-span-2' n={0}  cambiarResultado={cambiarResultado}/>
+        <Bott classDe0='col-span-1' n='C'  cambiarResultado={cambiarResultado}/>
+
       </div>
     
     </>

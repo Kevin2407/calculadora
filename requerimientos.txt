@@ -1,0 +1,14 @@
+requerimientos que voy encontrando para la calculadora
+
+
+    FUNCIONALES
+        1 - necesita un boton de reset del panel de resultados
+        2 - necesita un boton de coma
+        3 - el resultado de las divisiones debe tener una coma
+
+
+    ESTETICOS
+        1 - botones mas grandes
+        2 - que el flex de operaciones se haga horizontal al estar en sm
+        3 - detalles a la clase cuadro
+    
