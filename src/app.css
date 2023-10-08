@@ -46,7 +46,7 @@ body{
 
 
 .cuadro {
-    padding: 40px 0%;
+    padding: 50px 0%;
     margin: 10px;
 	height: 90%;
     background-color: beige;
@@ -56,3 +56,28 @@ body{
     border-style: solid;
 
 }
+
+
+
+/* Color Principal:
+
+Azul Océano: #2980b9
+
+
+Colores Análogos (colores cercanos en el círculo cromático):
+Azul Cielo: #3498db
+Azul Verdoso: #287271
+
+
+Color Complementario (el color opuesto en el círculo cromático):
+Naranja Rojizo: #b94e29
+
+
+Colores Neutros:
+Gris Claro: #ecf0f1
+Gris Oscuro: #2c3e50
+
+
+Colores Adicionales:
+Verde Mar: #16a085
+Rojo Coral: #e74c3c */

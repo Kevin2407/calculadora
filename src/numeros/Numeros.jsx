@@ -9,7 +9,7 @@ const ingresarNum = (e,resultado) => {
 export const Numeros = ({cambiarResultado}) => {
   return (
     <>
-      <div  className='cuadro grid grid-cols-3 '>
+      <div  className=' cuadro grid grid-cols-3 '>
         {
             Array.from({ length: 9 }).map((_, index) => (
               <Bott key={index} n={index+1} cambiarResultado={cambiarResultado} />

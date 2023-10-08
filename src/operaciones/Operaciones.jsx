@@ -4,7 +4,7 @@ import Bott from '../Bott'
 
 export const Operaciones = ({cambiarResultado}) => {
   return (
-    <div className='cuadro'>
+    <div className=' cuadro grid grid-cols-5 sm:grid-cols-1  '>
       <Bott n='+' cambiarResultado={cambiarResultado}/>
       <Bott n='-' cambiarResultado={cambiarResultado}/>
       <Bott n='*' cambiarResultado={cambiarResultado}/>
