@@ -2,7 +2,11 @@ import React from 'react'
 import Bott from '../Bott'
 import '../app.css'
 
-export const Numeros = () => {
+const ingresarNum = (resultado) => {
+
+}
+
+export const Numeros = ({resultado}) => {
   return (
     <>
       <div  className='cuadro grid grid-cols-3 '>
