@@ -2,7 +2,7 @@
 
 Este proyecto es una simple calculadora que permite realizar operaciones básicas como suma, resta, multiplicación y división sobre números decimales. Se desarrolló como un miniproyecto y repaso de React combinado con Tailwind CSS para el diseño.
 
-![Imagen de la pantalla principal](assets\muestra.png)
+![Imagen de la pantalla principal](src\assets\muestra.png)
 
 ## 🌟 Características
 
