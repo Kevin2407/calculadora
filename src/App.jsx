@@ -11,7 +11,7 @@ export const App = () => {
 
     const evaluarPanel = (panel)=>{
         try {
-            return Math.floor(eval(panel));
+            return eval(panel);
         } catch (error) {
             console.error("Error evaluando la cadena:", error);
             return null;
