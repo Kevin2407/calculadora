@@ -5,7 +5,6 @@ const Bott = ({n,classDe0,cambiarResultado}) => {
         <button onClick={() => cambiarResultado(n)} className='bg-green-700 px-4 py-3 my-1 rounded text-2xl text-white font-bold hover:opacity-75'>
           {n}
         </button>
-
       </div>
     </>
   )

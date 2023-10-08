@@ -48,6 +48,7 @@ body{
 .cuadro {
     padding: 40px 0%;
     margin: 10px;
+	height: 90%;
     background-color: beige;
     border-color: black;
     border-radius: 10px;

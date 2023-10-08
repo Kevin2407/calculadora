@@ -9,8 +9,19 @@ import './app.css'
 export const App = () => {
     const [ panel, setPanel] = useState('');
 
+    const evaluarPanel = (numero)=>{
+        try {
+            return Math.floor(eval(numero));
+        } catch (error) {
+            console.error("Error evaluando la cadena:", error);
+            return null;
+        }
+    }   
+
     const cambiarPanel = (numero)=>{
-        setPanel(panel + numero)
+        numero === '=' ? 
+        setPanel(evaluarPanel(panel)) 
+        : setPanel(panel.toString() + numero)
     }
     
   return (
