@@ -35,8 +35,8 @@ export const App = () => {
     }
     
   return (
-    <div className='container mx-auto h-screen'>
-    <div className='grid grid-cols-4'>
+    <div className='container mx-auto h-screen flex justify-center '>
+    <div className='grid grid-cols-4 items-center justify-center'>
       <div className='col-span-4'><Resultado resultado={panel} cambiarResultado={cambiarPanel}/></div>
       <div className='sm:col-span-3 col-span-4'><Numeros cambiarResultado={cambiarPanel} /></div>
       <div className='sm:col-span-1 col-span-4'><Operaciones cambiarResultado={cambiarPanel} /></div>
