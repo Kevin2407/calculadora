@@ -9,9 +9,9 @@ import './app.css'
 export const App = () => {
     const [ panel, setPanel] = useState('');
 
-    const evaluarPanel = (numero)=>{
+    const evaluarPanel = (panel)=>{
         try {
-            return Math.floor(eval(numero));
+            return Math.floor(eval(panel));
         } catch (error) {
             console.error("Error evaluando la cadena:", error);
             return null;
@@ -25,7 +25,8 @@ export const App = () => {
     }
     
   return (
-    <div className='container mx-auto bg-cyan-950'>
+    <div className='container mx-auto mt-
+    '>
     <div className='grid grid-cols-4'>
       <div className='col-span-4'><Resultado resultado={panel} cambiarResultado={cambiarPanel}/></div>
       <div className='sm:col-span-3 col-span-4'><Numeros cambiarResultado={cambiarPanel} /></div>
