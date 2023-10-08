@@ -8,13 +8,17 @@ import './app.css'
 
 export const App = () => {
     const [ panel, setPanel] = useState('');
+
+    const cambiarPanel = (numero)=>{
+        setPanel(panel + numero)
+    }
     
   return (
     <div className='container mx-auto bg-cyan-950'>
     <div className='grid grid-cols-4'>
-      <div className='col-span-4'><Resultado resultado={panel} cambiarResultado={setPanel}/></div>
-      <div className='sm:col-span-3 col-span-4'><Numeros cambiarResultado={setPanel} /></div>
-      <div className='sm:col-span-1 col-span-4'><Operaciones cambiarResultado={setPanel} /></div>
+      <div className='col-span-4'><Resultado resultado={panel} cambiarResultado={cambiarPanel}/></div>
+      <div className='sm:col-span-3 col-span-4'><Numeros cambiarResultado={cambiarPanel} /></div>
+      <div className='sm:col-span-1 col-span-4'><Operaciones cambiarResultado={cambiarPanel} /></div>
     </div>
   </div>
   )
